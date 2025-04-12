@@ -5,7 +5,7 @@ This repo was originally a fork of Andrea Tupini and Matthieu Dorier's [raylib-c
 However I wanted to break it down even further and make it as barebones as possible to start any new raylib project fresh in VSCode and C++, 
 as well as be able to easily add additional libraries via CMake.
 
-I removed the original assets and renamed the source and assets folders to more c++ conventional names. 
+I removed the original assets and renamed the source and assets folders to more conventional C/C++ names. 
 
 I also modified the CMakeLists.txt file to only include raylib as a dependency. 
 
@@ -20,7 +20,7 @@ As a C++ raylib game dev scrub I also wanted to include some tips I painfully le
 
 To actually compile and run this you'll need VSCode's C/C++ Extension, CMake, a compiler and a debugger.
 
-Some common compilers include MinGW(Windows), Clang(Mac) or GCC(Linux), but there are dozens to chose from.
+Some common compilers include MinGW(Windows), Clang(Mac) or GCC(Linux), but there are dozens to choose from.
 
 Some common debuggers include WinDbg and x64dbg(Windows), LLDB(Mac) or GDB(Linux). Again, there are dozens others to choose from.
 
